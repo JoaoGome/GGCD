@@ -1,0 +1,16 @@
+message Filmes {
+    required binary tconst (STRING);
+    required binary type (STRING);
+    required binary primaryT (STRING);
+    required binary originalT (STRING);
+    required binary isAdult (STRING);
+    required binary start (STRING);
+    required binary end (STRING);
+    required binary minutes (STRING);
+    required binary rating (STRING);
+    required binary numberVotes (STRING);
+    required group generos (LIST)
+    {
+        repeated binary genero (STRING);
+    }
+}
