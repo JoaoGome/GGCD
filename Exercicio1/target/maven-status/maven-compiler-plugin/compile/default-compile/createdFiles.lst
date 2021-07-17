@@ -1,0 +1,6 @@
+ToParquet.class
+ToParquet$ToParquetReducer.class
+FromParquet$FromParquetMapper.class
+FromParquet.class
+ToParquet$ToParquetBasics.class
+ToParquet$ToParquetRatings.class
